@@ -1,0 +1,18 @@
+[package]
+name = "bevy_houdini_loader"
+version = "0.1.0"
+edition = "2021"
+description = "Spawn glTF Scene0s in Bevy 0.16 from a Houdini TOPs manifest (assets/output.json)."
+license = "MIT OR Apache-2.0"
+keywords = ["bevy", "gltf", "houdini", "assets"]
+categories = ["game-engines", "graphics", "development-tools"]
+readme = "README.md"
+repository = ""
+
+[dependencies]
+bevy = "0.16"
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+serde_path_to_error = "0.1"
+log = "0.4"
+anyhow = "1"
