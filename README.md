@@ -10,6 +10,7 @@ Add this to your `Cargo.toml`:
 [dependincies]
 bevy_houdini_loader = "0.1.0"
 ````
+
 ## Example
 
 ```rust
